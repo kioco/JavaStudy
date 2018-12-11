@@ -1,7 +1,7 @@
 package string;
 
 /**
- * 有效的字母异位词
+ * 实现strstr
  *
  * @author BaoZhou
  * @date 2018/12/10
