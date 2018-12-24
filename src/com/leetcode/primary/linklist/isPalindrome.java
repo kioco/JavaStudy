@@ -1,5 +1,7 @@
 package com.leetcode.primary.linklist;
 
+import com.leetcode.leetcodeutils.ListNode;
+
 /**
  * 回文链表
  * 1.先通过快慢指针寻找中点

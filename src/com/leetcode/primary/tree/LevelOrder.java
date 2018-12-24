@@ -1,5 +1,8 @@
 package com.leetcode.primary.tree;
 
+import com.leetcode.leetcodeutils.TreeNode;
+import com.leetcode.leetcodeutils.TreeWrapper;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -13,8 +16,8 @@ import java.util.Queue;
  */
 public class LevelOrder {
     public static void main(String[] args) {
-        TreeNode root = Wrapper.stringToTreeNode("[3,9,20,null,null,15,7]");
-        Wrapper.prettyPrintTree(root);
+        TreeNode root = TreeWrapper.stringToTreeNode("[3,9,20,null,null,15,7]");
+        TreeWrapper.prettyPrintTree(root);
         System.out.println(levelOrder(root).toString());
     }
 

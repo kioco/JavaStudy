@@ -1,18 +1,21 @@
 package com.leetcode.middle.array;
 
+import com.leetcode.leetcodeutils.PrintUtils;
+
 import java.util.*;
 
 /**
  * 字谜分组
- * 比我自己的方法要好。。。
+ * 这个是我抄的方法，比我自己的方法要好
  * @author BaoZhou
  * @date 2018/12/22
  */
+
 public class GroupAnagrams {
     public static void main(String[] args) {
         String[] s1 = {"eat", "tea", "tan", "ate", "nat", "bat"};
         String[] s = {"tea","","eat","","tea",""};
-        LeetCodeUtils.printStringArrays(groupAnagrams(s));
+        PrintUtils.printStringArrays(groupAnagrams(s));
     }
 
     public static List<List<String>> groupAnagrams(String[] strs) {

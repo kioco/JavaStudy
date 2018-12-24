@@ -1,4 +1,4 @@
-package com.leetcode.middle.array;
+package com.leetcode.leetcodeutils;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import java.util.List;
  * @author BaoZhou
  * @date 2018/12/22
  */
-public class LeetCodeUtils {
+public class PrintUtils {
     public static void printArrays(List<List<Integer>> nums) {
         for (int i = 0; i < nums.size(); i++) {
             for (int j = 0; j < nums.get(i).size(); j++) {

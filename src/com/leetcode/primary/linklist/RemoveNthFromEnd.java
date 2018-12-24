@@ -1,5 +1,7 @@
 package com.leetcode.primary.linklist;
 
+import com.leetcode.leetcodeutils.ListNode;
+
 /**
  * 删除链表的倒数第N个节点
  * @author: BaoZhou

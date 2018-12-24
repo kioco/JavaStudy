@@ -1,5 +1,8 @@
 package com.leetcode.primary.tree;
 
+import com.leetcode.leetcodeutils.TreeNode;
+import com.leetcode.leetcodeutils.TreeWrapper;
+
 /**
  * 将有序数组转换为二叉搜索树
  * 思路：二分法
@@ -10,7 +13,7 @@ package com.leetcode.primary.tree;
 public class SortedArrayToBST {
     public static void main(String[] args) {
         int[] nums = {-10, -3, 0, 5, 9};
-        Wrapper.prettyPrintTree(sortedArrayToBST(nums));
+        TreeWrapper.prettyPrintTree(sortedArrayToBST(nums));
     }
 
     public static TreeNode sortedArrayToBST(int[] nums) {

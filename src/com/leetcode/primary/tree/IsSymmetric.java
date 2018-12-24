@@ -1,5 +1,7 @@
 package com.leetcode.primary.tree;
 
+import com.leetcode.leetcodeutils.TreeNode;
+import com.leetcode.leetcodeutils.TreeWrapper;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -11,8 +13,8 @@ import java.util.Queue;
  */
 public class IsSymmetric {
     public static void main(String[] args) {
-        TreeNode root = Wrapper.stringToTreeNode("[10,5,15,null,null,6,20]");
-        Wrapper.prettyPrintTree(root);
+        TreeNode root = TreeWrapper.stringToTreeNode("[10,5,15,null,null,6,20]");
+        TreeWrapper.prettyPrintTree(root);
         System.out.println(isSymmetric(root));
     }
 

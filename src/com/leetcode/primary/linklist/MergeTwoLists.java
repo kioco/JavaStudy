@@ -1,5 +1,7 @@
 package com.leetcode.primary.linklist;
 
+import com.leetcode.leetcodeutils.ListNode;
+
 /**
  * 合并两个有序链表
  *

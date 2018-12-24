@@ -1,9 +1,9 @@
-package com.leetcode.primary.tree;
+package com.leetcode.leetcodeutils;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Wrapper {
+public class TreeWrapper {
     /**
      * Definition for a binary com.leetcode.primary.tree node.
      * public class TreeNode {

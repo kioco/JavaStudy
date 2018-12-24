@@ -1,5 +1,7 @@
 package com.leetcode.primary.tree;
 
+import com.leetcode.leetcodeutils.TreeNode;
+import com.leetcode.leetcodeutils.TreeWrapper;
 /**
  * 验证二叉搜索树
  *
@@ -8,8 +10,8 @@ package com.leetcode.primary.tree;
  */
 public class IsValidBST {
     public static void main(String[] args) {
-        TreeNode root = Wrapper.stringToTreeNode("[10,5,15,null,null,6,20]");
-        Wrapper.prettyPrintTree(root);
+        TreeNode root = TreeWrapper.stringToTreeNode("[10,5,15,null,null,6,20]");
+        TreeWrapper.prettyPrintTree(root);
         System.out.println(isValidBST(root));
     }
 

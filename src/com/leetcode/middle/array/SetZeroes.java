@@ -1,5 +1,7 @@
 package com.leetcode.middle.array;
 
+import com.leetcode.leetcodeutils.PrintUtils;
+
 /**
  * 矩阵置零
  * 只需要两个额外的布尔变量而已
@@ -18,7 +20,7 @@ public class SetZeroes {
                 {0,0,1,1}};
         int[][] nums2 = {{1, 0, 3}};
         setZeroes(nums);
-        LeetCodeUtils.printMatrix(nums);
+        PrintUtils.printMatrix(nums);
     }
 
     public static void setZeroes(int[][] matrix) {

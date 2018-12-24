@@ -1,5 +1,8 @@
 package com.leetcode.primary.tree;
 
+import com.leetcode.leetcodeutils.TreeNode;
+import com.leetcode.leetcodeutils.TreeWrapper;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -13,8 +16,8 @@ public class MaxDepth {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String line;
         while ((line = in.readLine()) != null) {
-            TreeNode root = Wrapper.stringToTreeNode(line);
-            Wrapper.prettyPrintTree(root);
+            TreeNode root = TreeWrapper.stringToTreeNode(line);
+            TreeWrapper.prettyPrintTree(root);
             System.out.println(maxDepth(root));
         }
     }

@@ -1,5 +1,7 @@
 package com.leetcode.primary.linklist;
 
+import com.leetcode.leetcodeutils.ListNode;
+
 /**
  * 反转链表(递归)
  *
