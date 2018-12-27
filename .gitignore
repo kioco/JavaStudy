@@ -25,7 +25,8 @@
 hs_err_pid*
 
 
-src/main/java/com/juc/
-src/main/java/com/leetcode/
+
 src/main/resources/
 src/test/
+.idea/libraries/
+
