@@ -30,7 +30,6 @@ public class AddTwoNumbers {
         ListNode result = addTwoNumbers(head1, head2);
         NodeWrapper.prettyPrintLinkedList(result);
 
-
     }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
