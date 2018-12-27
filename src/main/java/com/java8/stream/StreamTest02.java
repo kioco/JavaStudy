@@ -1,6 +1,8 @@
 package com.java8.stream;
 
-import lambda.Employee;
+
+
+import com.java8.lambda.Employee;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
