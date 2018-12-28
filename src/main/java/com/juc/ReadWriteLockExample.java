@@ -58,6 +58,7 @@ class WriteThread implements Runnable {
         this.demo = demo;
     }
 
+    @Override
     public void run() {
         demo.set();
     }

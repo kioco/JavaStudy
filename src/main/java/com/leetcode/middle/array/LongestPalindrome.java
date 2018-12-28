@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * 最长回文子串
+ * 解题思路： https://www.jianshu.com/p/e74ce81ecc7d
  * @author BaoZhou
  * @date 2018/12/24
  */

@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * Knuth-Durstenfeld Shuffle
- *
+ * 解题思路：https://www.jianshu.com/p/a2216e9df331
  * @author: BaoZhou
  * @date : 2018/12/18 16:19
  */

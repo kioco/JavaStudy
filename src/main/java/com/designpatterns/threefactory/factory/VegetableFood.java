@@ -1,4 +1,4 @@
-package com.designpatterns.factory;
+package com.designpatterns.threefactory.factory;
 
 /**
  * @author BaoZhou
