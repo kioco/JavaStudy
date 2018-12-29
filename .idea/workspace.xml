@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bfa40d-44ca-4e94-9a59-6c3a3a4a13e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ABCBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/BridgeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositeAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ICBCBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/SavingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/composite/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/composite/CompositeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/composite/MiFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/composite/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/BuildTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/EmployeeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/EmployeeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/FlyweightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/FlyweightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/Manager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,23 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmployeeFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/EmployeeFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="225">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -64,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DepositeAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositeAccount.java">
+      <file leaf-file-name="DepositAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="150">
+              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding>
                 <element signature="e#257#258#0" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
@@ -80,34 +55,12 @@
       <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="350">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="e#173#174#0" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/com.designpatterns.bridge.Bank" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.designpatterns.bridge.Bank">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.designpatterns.bridge.Bank</OriginalElement>
-              <nodes>
-                <node x="0.0" y="0.0">com.designpatterns.bridge.Bank</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="-270.5" y="-47.5" />
-              <SelectedNodes>
-                <node>com.designpatterns.bridge.Bank</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -128,66 +81,44 @@
               <ID>JAVA</ID>
               <OriginalElement>com.designpatterns.bridge</OriginalElement>
               <nodes>
-                <node x="239.5" y="146.0">com.designpatterns.bridge.Bank</node>
-                <node x="383.703125" y="297.0">com.designpatterns.bridge.ABCBank</node>
-                <node x="10.5" y="158.5">com.designpatterns.bridge.DepositeAccount</node>
-                <node x="95.296875" y="297.0">com.designpatterns.bridge.ICBCBank</node>
-                <node x="461.5" y="158.5">com.designpatterns.bridge.SavingAccount</node>
-                <node x="236.0" y="0.0">com.designpatterns.bridge.Account</node>
+                <node x="111.0" y="0.0">com.designpatterns.bridge.Bank</node>
+                <node x="0.0" y="151.0">com.designpatterns.bridge.ABCBank</node>
+                <node x="483.0" y="273.0">com.designpatterns.bridge.BridgeTest</node>
+                <node x="222.0" y="151.0">com.designpatterns.bridge.ICBCBank</node>
+                <node x="0.0" y="399.0">com.designpatterns.bridge.DepositAccount</node>
+                <node x="229.0" y="399.0">com.designpatterns.bridge.SavingAccount</node>
+                <node x="114.5" y="273.0">com.designpatterns.bridge.Account</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="com.designpatterns.bridge.Bank" target="com.designpatterns.bridge.Account">
-                  <point x="-50.5" y="-50.5" />
-                  <point x="290.0" y="126.0" />
-                  <point x="327.4375" y="126.0" />
-                  <point x="-13.0625" y="38.0" />
-                </edge>
-                <edge source="com.designpatterns.bridge.ABCBank" target="com.designpatterns.bridge.Bank">
-                  <point x="-67.33333333333331" y="-38.5" />
-                  <point x="417.3697916666667" y="277.0" />
-                  <point x="365.75" y="277.0" />
-                  <point x="25.25" y="50.5" />
-                </edge>
-                <edge source="com.designpatterns.bridge.SavingAccount" target="com.designpatterns.bridge.Account">
-                  <point x="52.25" y="-38.0" />
-                  <point x="618.25" y="106.0" />
-                  <point x="405.8125" y="106.0" />
-                  <point x="65.3125" y="38.0" />
-                </edge>
                 <edge source="com.designpatterns.bridge.ICBCBank" target="com.designpatterns.bridge.Bank">
                   <point x="0.0" y="-38.5" />
-                  <point x="196.296875" y="267.0" />
-                  <point x="264.75" y="267.0" />
-                  <point x="-75.75" y="50.5" />
+                  <point x="323.0" y="126.0" />
+                  <point x="262.5" y="126.0" />
+                  <point x="50.5" y="50.5" />
                 </edge>
-                <edge source="com.designpatterns.bridge.ICBCBank" target="com.designpatterns.bridge.Account">
-                  <point x="-67.33333333333331" y="-38.5" />
-                  <point x="128.96354166666669" y="277.0" />
-                  <point x="0.0" y="277.0" />
-                  <point x="0.0" y="96.0" />
-                  <point x="249.0625" y="96.0" />
-                  <point x="-91.4375" y="38.0" />
+                <edge source="com.designpatterns.bridge.DepositAccount" target="com.designpatterns.bridge.Account">
+                  <point x="0.0" y="-38.0" />
+                  <point x="104.5" y="374.0" />
+                  <point x="166.75" y="374.0" />
+                  <point x="-52.25" y="38.0" />
                 </edge>
-                <edge source="com.designpatterns.bridge.DepositeAccount" target="com.designpatterns.bridge.Account">
-                  <point x="-52.25" y="-38.0" />
-                  <point x="62.75" y="106.0" />
-                  <point x="275.1875" y="106.0" />
-                  <point x="-65.3125" y="38.0" />
+                <edge source="com.designpatterns.bridge.ABCBank" target="com.designpatterns.bridge.Bank">
+                  <point x="0.0" y="-38.5" />
+                  <point x="101.0" y="126.0" />
+                  <point x="161.5" y="126.0" />
+                  <point x="-50.5" y="50.5" />
                 </edge>
-                <edge source="com.designpatterns.bridge.ABCBank" target="com.designpatterns.bridge.Account">
-                  <point x="67.33333333333331" y="-38.5" />
-                  <point x="552.0364583333333" y="277.0" />
-                  <point x="681.0" y="277.0" />
-                  <point x="681.0" y="96.0" />
-                  <point x="431.9375" y="96.0" />
-                  <point x="91.4375" y="38.0" />
+                <edge source="com.designpatterns.bridge.SavingAccount" target="com.designpatterns.bridge.Account">
+                  <point x="0.0" y="-38.0" />
+                  <point x="333.5" y="374.0" />
+                  <point x="271.25" y="374.0" />
+                  <point x="52.25" y="38.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="130.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="166.0" />
               <SelectedNodes>
-                <node>com.designpatterns.bridge.Bank</node>
-                <node>com.designpatterns.bridge.Account</node>
+                <node>com.designpatterns.bridge.BridgeTest</node>
               </SelectedNodes>
               <Categories>
                 <Category>Fields</Category>
@@ -201,11 +132,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BridgeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuildTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/BuildTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InorderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/InorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BridgeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/BridgeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="483">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -278,8 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/Dog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/ChinesePeople.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/Clothe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/ClotheDecorate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/FeatherDecorate.java" />
@@ -321,14 +271,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/FlyweightTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/EmployeeFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Accout.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositeAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ABCBand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ABCBank.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/SavingAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ICBCBank.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/BridgeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositeAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/BuildTree.java" />
       </list>
     </option>
   </component>
@@ -372,10 +324,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="x" value="777" />
+    <option name="y" value="158" />
+    <option name="width" value="1022" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -431,7 +383,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -440,8 +392,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="middle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -450,8 +402,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="designpatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="middle" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -509,7 +462,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BridgeTest.test">
+  <component name="RunManager" selected="Application.BuildTree">
+    <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.middle.tree.BuildTree" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.middle.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.designpatterns.composite.Client" />
       <module name="JavaStudy" />
@@ -578,29 +541,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.designpatterns.composite" />
       <option name="MAIN_CLASS_NAME" value="com.designpatterns.composite.CompositeTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FlyweightTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.designpatterns.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.designpatterns.flyweight" />
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.flyweight.FlyweightTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -686,19 +626,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FlyweightTest.test" />
       <item itemvalue="Application.Client" />
       <item itemvalue="JUnit.CompositeTest.test" />
       <item itemvalue="JUnit.CompositeTest" />
       <item itemvalue="JUnit.BridgeTest.test" />
+      <item itemvalue="Application.BuildTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildTree" />
         <item itemvalue="JUnit.BridgeTest.test" />
         <item itemvalue="JUnit.CompositeTest" />
         <item itemvalue="JUnit.CompositeTest.test" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.FlyweightTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -724,7 +664,7 @@
       <workItem from="1545877999034" duration="12872000" />
       <workItem from="1545896221252" duration="19016000" />
       <workItem from="1545964424798" duration="12987000" />
-      <workItem from="1545984138126" duration="22654000" />
+      <workItem from="1545984138126" duration="33421000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1544378457793</created>
@@ -810,13 +750,17 @@
       <option name="project" value="LOCAL" />
       <updated>1546017150257</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="新增设计模式">
+      <created>1546074483839</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546074483839</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FlyweightTest_test - 2018.12.29 at 01h 11m 42s.xml">
-      <configuration name="FlyweightTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FlyweightTest_test - 2018.12.29 at 09h 30m 15s.xml">
       <configuration name="FlyweightTest.test" configurationId="JUnit" />
     </history-entry>
@@ -844,16 +788,19 @@
     <history-entry file="CompositeTest - 2018.12.29 at 15h 17m 39s.xml">
       <configuration name="CompositeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BridgeTest_test - 2018.12.29 at 17h 05m 19s.xml">
+      <configuration name="BridgeTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311967000" />
+    <option name="totallyTimeSpent" value="322734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22921109" side_tool="true" visible="true" weight="0.28244275" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22974414" side_tool="true" visible="true" weight="0.30861506" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.18603411" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -863,16 +810,16 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8118337" weight="0.41003272" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81130064" weight="0.41003272" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49573562" weight="0.3293348" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7707889" visible="true" weight="0.28244275" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.77025586" visible="true" weight="0.30861506" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.3293348" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1170,45 +1117,20 @@
           <properties />
           <option name="timeStamp" value="166" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/BuildTree.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
-      <option name="time" value="172" />
+      <option name="time" value="174" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/facade/Disk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/facade/CPU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/facade/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/facade/Cilent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1677,44 +1599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.designpatterns.bridge.Bank">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.designpatterns.bridge.Bank</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">com.designpatterns.bridge.Bank</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-270.5" y="-47.5" />
-          <SelectedNodes>
-            <node>com.designpatterns.bridge.Bank</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ABCBank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1729,10 +1613,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositeAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ICBCBank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="300">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/BridgeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding>
             <element signature="e#257#258#0" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
@@ -1740,10 +1645,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ICBCBank.java">
+    <entry file="uml://JAVA/com.designpatterns.bridge.BridgeTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.designpatterns.bridge.BridgeTest</OriginalElement>
+          <nodes>
+            <node x="" y="">com.designpatterns.bridge.BridgeTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="55.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.designpatterns.bridge.Bank">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.designpatterns.bridge.Bank</OriginalElement>
+          <nodes>
+            <node x="" y="">com.designpatterns.bridge.Bank</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="38.5" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="350">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1753,66 +1698,44 @@
           <ID>JAVA</ID>
           <OriginalElement>com.designpatterns.bridge</OriginalElement>
           <nodes>
-            <node x="239.5" y="146.0">com.designpatterns.bridge.Bank</node>
-            <node x="383.703125" y="297.0">com.designpatterns.bridge.ABCBank</node>
-            <node x="10.5" y="158.5">com.designpatterns.bridge.DepositeAccount</node>
-            <node x="95.296875" y="297.0">com.designpatterns.bridge.ICBCBank</node>
-            <node x="461.5" y="158.5">com.designpatterns.bridge.SavingAccount</node>
-            <node x="236.0" y="0.0">com.designpatterns.bridge.Account</node>
+            <node x="111.0" y="0.0">com.designpatterns.bridge.Bank</node>
+            <node x="0.0" y="151.0">com.designpatterns.bridge.ABCBank</node>
+            <node x="483.0" y="273.0">com.designpatterns.bridge.BridgeTest</node>
+            <node x="222.0" y="151.0">com.designpatterns.bridge.ICBCBank</node>
+            <node x="0.0" y="399.0">com.designpatterns.bridge.DepositAccount</node>
+            <node x="229.0" y="399.0">com.designpatterns.bridge.SavingAccount</node>
+            <node x="114.5" y="273.0">com.designpatterns.bridge.Account</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="com.designpatterns.bridge.Bank" target="com.designpatterns.bridge.Account">
-              <point x="-50.5" y="-50.5" />
-              <point x="290.0" y="126.0" />
-              <point x="327.4375" y="126.0" />
-              <point x="-13.0625" y="38.0" />
-            </edge>
-            <edge source="com.designpatterns.bridge.ABCBank" target="com.designpatterns.bridge.Bank">
-              <point x="-67.33333333333331" y="-38.5" />
-              <point x="417.3697916666667" y="277.0" />
-              <point x="365.75" y="277.0" />
-              <point x="25.25" y="50.5" />
-            </edge>
-            <edge source="com.designpatterns.bridge.SavingAccount" target="com.designpatterns.bridge.Account">
-              <point x="52.25" y="-38.0" />
-              <point x="618.25" y="106.0" />
-              <point x="405.8125" y="106.0" />
-              <point x="65.3125" y="38.0" />
-            </edge>
             <edge source="com.designpatterns.bridge.ICBCBank" target="com.designpatterns.bridge.Bank">
               <point x="0.0" y="-38.5" />
-              <point x="196.296875" y="267.0" />
-              <point x="264.75" y="267.0" />
-              <point x="-75.75" y="50.5" />
+              <point x="323.0" y="126.0" />
+              <point x="262.5" y="126.0" />
+              <point x="50.5" y="50.5" />
             </edge>
-            <edge source="com.designpatterns.bridge.ICBCBank" target="com.designpatterns.bridge.Account">
-              <point x="-67.33333333333331" y="-38.5" />
-              <point x="128.96354166666669" y="277.0" />
-              <point x="0.0" y="277.0" />
-              <point x="0.0" y="96.0" />
-              <point x="249.0625" y="96.0" />
-              <point x="-91.4375" y="38.0" />
+            <edge source="com.designpatterns.bridge.DepositAccount" target="com.designpatterns.bridge.Account">
+              <point x="0.0" y="-38.0" />
+              <point x="104.5" y="374.0" />
+              <point x="166.75" y="374.0" />
+              <point x="-52.25" y="38.0" />
             </edge>
-            <edge source="com.designpatterns.bridge.DepositeAccount" target="com.designpatterns.bridge.Account">
-              <point x="-52.25" y="-38.0" />
-              <point x="62.75" y="106.0" />
-              <point x="275.1875" y="106.0" />
-              <point x="-65.3125" y="38.0" />
+            <edge source="com.designpatterns.bridge.ABCBank" target="com.designpatterns.bridge.Bank">
+              <point x="0.0" y="-38.5" />
+              <point x="101.0" y="126.0" />
+              <point x="161.5" y="126.0" />
+              <point x="-50.5" y="50.5" />
             </edge>
-            <edge source="com.designpatterns.bridge.ABCBank" target="com.designpatterns.bridge.Account">
-              <point x="67.33333333333331" y="-38.5" />
-              <point x="552.0364583333333" y="277.0" />
-              <point x="681.0" y="277.0" />
-              <point x="681.0" y="96.0" />
-              <point x="431.9375" y="96.0" />
-              <point x="91.4375" y="38.0" />
+            <edge source="com.designpatterns.bridge.SavingAccount" target="com.designpatterns.bridge.Account">
+              <point x="0.0" y="-38.0" />
+              <point x="333.5" y="374.0" />
+              <point x="271.25" y="374.0" />
+              <point x="52.25" y="38.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="130.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="166.0" />
           <SelectedNodes>
-            <node>com.designpatterns.bridge.Bank</node>
-            <node>com.designpatterns.bridge.Account</node>
+            <node>com.designpatterns.bridge.BridgeTest</node>
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
@@ -1825,10 +1748,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/BridgeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/InorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/BuildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
