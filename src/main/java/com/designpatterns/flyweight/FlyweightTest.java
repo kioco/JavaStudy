@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Random;
 
 /**
+ * 享元模式
  * @author BaoZhou
  * @date 2018/12/29
  */

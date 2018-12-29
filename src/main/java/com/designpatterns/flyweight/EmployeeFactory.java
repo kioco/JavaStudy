@@ -2,7 +2,6 @@ package com.designpatterns.flyweight;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 
 /**
  * @author BaoZhou
@@ -16,7 +15,7 @@ public class EmployeeFactory {
         if (manager == null) {
             manager = new Manager(department);
             EMPLOYEE_MAP.put(department, manager);
-            System.out.println("创建了一个新的" + department + "成员");
+            System.out.println("创建了一个新的 " + department + " 成员");
         }
         return manager;
 

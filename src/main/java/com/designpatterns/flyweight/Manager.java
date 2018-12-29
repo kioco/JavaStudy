@@ -14,7 +14,7 @@ public class Manager implements Employee {
 
     @Override
     public void report() {
-        System.out.println("我是"+department+"的部门经理"+"我的报告内容是："+ reportContent);
+        System.out.println("我是 "+department+" 的部门经理"+"我的报告内容是： "+ reportContent);
     }
 
     public void setReportContent(String reportContent) {
