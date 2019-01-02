@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bfa40d-44ca-4e94-9a59-6c3a3a4a13e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/BuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/Connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/KthSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/TreeLinkNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,33 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ABCBank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ABCBank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DepositAccount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositAccount.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-              </folding>
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -55,88 +35,17 @@
       <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICBCBank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ICBCBank.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/com.designpatterns.bridge" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.designpatterns.bridge">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.designpatterns.bridge</OriginalElement>
-              <nodes>
-                <node x="111.0" y="0.0">com.designpatterns.bridge.Bank</node>
-                <node x="0.0" y="151.0">com.designpatterns.bridge.ABCBank</node>
-                <node x="483.0" y="273.0">com.designpatterns.bridge.BridgeTest</node>
-                <node x="222.0" y="151.0">com.designpatterns.bridge.ICBCBank</node>
-                <node x="0.0" y="399.0">com.designpatterns.bridge.DepositAccount</node>
-                <node x="229.0" y="399.0">com.designpatterns.bridge.SavingAccount</node>
-                <node x="114.5" y="273.0">com.designpatterns.bridge.Account</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.designpatterns.bridge.ICBCBank" target="com.designpatterns.bridge.Bank">
-                  <point x="0.0" y="-38.5" />
-                  <point x="323.0" y="126.0" />
-                  <point x="262.5" y="126.0" />
-                  <point x="50.5" y="50.5" />
-                </edge>
-                <edge source="com.designpatterns.bridge.DepositAccount" target="com.designpatterns.bridge.Account">
-                  <point x="0.0" y="-38.0" />
-                  <point x="104.5" y="374.0" />
-                  <point x="166.75" y="374.0" />
-                  <point x="-52.25" y="38.0" />
-                </edge>
-                <edge source="com.designpatterns.bridge.ABCBank" target="com.designpatterns.bridge.Bank">
-                  <point x="0.0" y="-38.5" />
-                  <point x="101.0" y="126.0" />
-                  <point x="161.5" y="126.0" />
-                  <point x="-50.5" y="50.5" />
-                </edge>
-                <edge source="com.designpatterns.bridge.SavingAccount" target="com.designpatterns.bridge.Account">
-                  <point x="0.0" y="-38.0" />
-                  <point x="333.5" y="374.0" />
-                  <point x="271.25" y="374.0" />
-                  <point x="52.25" y="38.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="166.0" />
-              <SelectedNodes>
-                <node>com.designpatterns.bridge.BridgeTest</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BuildTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/BuildTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="235">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="14" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,29 +53,75 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcodeutils/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeLinkNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/TreeLinkNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/Connect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1075">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KthSmallest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/KthSmallest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/primary/tree/LevelOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="43" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="InorderTraversal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/InorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="24" column="62" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="24" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BridgeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/BridgeTest.java">
+      <file leaf-file-name="ZigZagLevelOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/ZigZagLevelOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SavingAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/SavingAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="325">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="17" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -187,7 +142,6 @@
     <findStrings>
       <find>// nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝</find>
       <find>tost</find>
-      <find>Stack</find>
       <find>List&lt;List&lt;Integer&gt;&gt;</find>
       <find>List&lt;List&lt;Integer&gt;&gt; result</find>
       <find>println</find>
@@ -200,7 +154,6 @@
       <find>random</find>
       <find>ran</find>
       <find>.next.next</find>
-      <find>递归</find>
       <find>level</find>
       <find>mana</find>
       <find>shuff</find>
@@ -212,9 +165,11 @@
       <find>volatile</find>
       <find>Slf4j</find>
       <find>LOGGER.info(</find>
-      <find>LOGGER.info(</find>
       <find>valueof</find>
       <find>nextInt</find>
+      <find>Stack</find>
+      <find>层</find>
+      <find>递归</find>
     </findStrings>
     <replaceStrings>
       <replace>{</replace>
@@ -230,9 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/Clothe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/ClotheDecorate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/FeatherDecorate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/SouthAfricaPeople.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/MasterDecorate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/DecoratorTest.java" />
@@ -281,6 +233,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/BuildTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/TreeLinkNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/Connect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/KthSmallest.java" />
       </list>
     </option>
   </component>
@@ -335,9 +290,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -414,6 +366,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,7 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuildTree">
+  <component name="RunManager" selected="Application.KthSmallest">
     <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.middle.tree.BuildTree" />
       <module name="JavaStudy" />
@@ -473,12 +428,22 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.composite.Client" />
+    <configuration name="Connect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.middle.tree.Connect" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.designpatterns.composite.*" />
+          <option name="PATTERN" value="com.leetcode.middle.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="KthSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.middle.tree.KthSmallest" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.middle.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -520,29 +485,6 @@
       <option name="MAIN_CLASS_NAME" value="com.designpatterns.composite.CompositeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CompositeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.designpatterns.composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.designpatterns.composite" />
-      <option name="MAIN_CLASS_NAME" value="com.designpatterns.composite.CompositeTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -626,19 +568,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="JUnit.CompositeTest.test" />
       <item itemvalue="JUnit.CompositeTest" />
       <item itemvalue="JUnit.BridgeTest.test" />
       <item itemvalue="Application.BuildTree" />
+      <item itemvalue="Application.Connect" />
+      <item itemvalue="Application.KthSmallest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthSmallest" />
+        <item itemvalue="Application.Connect" />
         <item itemvalue="Application.BuildTree" />
         <item itemvalue="JUnit.BridgeTest.test" />
         <item itemvalue="JUnit.CompositeTest" />
-        <item itemvalue="JUnit.CompositeTest.test" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -665,6 +607,8 @@
       <workItem from="1545896221252" duration="19016000" />
       <workItem from="1545964424798" duration="12987000" />
       <workItem from="1545984138126" duration="33421000" />
+      <workItem from="1546438498419" duration="1034000" />
+      <workItem from="1546439562821" duration="7219000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1544378457793</created>
@@ -793,14 +737,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322734000" />
+    <option name="totallyTimeSpent" value="330987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.22974414" side_tool="true" visible="true" weight="0.30861506" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.23187633" side_tool="true" visible="true" weight="0.30861506" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.18603411" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -810,16 +754,16 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81130064" weight="0.41003272" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.80916846" weight="0.41003272" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49573562" weight="0.3293348" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4946695" weight="0.3293348" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.77025586" visible="true" weight="0.30861506" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7681237" visible="true" weight="0.30861506" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293348" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23400854" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.3293348" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1123,141 +1067,42 @@
           <properties />
           <option name="timeStamp" value="173" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/Connect.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/Connect.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/Connect.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/Connect.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
-      <option name="time" value="174" />
+      <option name="time" value="181" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/facade/Cilent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.designpatterns.facade">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.designpatterns.facade</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">com.designpatterns.facade.Memory</node>
-            <node x="181.99999999999997" y="0.0">com.designpatterns.facade.Disk</node>
-            <node x="175.5" y="356.0">com.designpatterns.facade.Cilent</node>
-            <node x="364.0" y="0.0">com.designpatterns.facade.CPU</node>
-            <node x="178.5" y="136.0">com.designpatterns.facade.Computer</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.designpatterns.facade.Computer" target="com.designpatterns.facade.Memory">
-              <point x="-70.41666666666669" y="-85.0" />
-              <point x="192.58333333333331" y="116.0" />
-              <point x="40.5" y="116.0" />
-              <point x="-40.5" y="38.0" />
-            </edge>
-            <edge source="com.designpatterns.facade.Cilent" target="com.designpatterns.facade.Computer">
-              <point x="-43.75" y="-26.5" />
-              <point x="219.25" y="331.0" />
-              <point x="220.75" y="331.0" />
-              <point x="-42.25" y="85.0" />
-            </edge>
-            <edge source="com.designpatterns.facade.Computer" target="com.designpatterns.facade.Disk">
-              <point x="14.083333333333314" y="-85.0" />
-              <point x="277.0833333333333" y="96.0" />
-              <point x="303.5" y="96.0" />
-              <point x="40.5" y="38.0" />
-            </edge>
-            <edge source="com.designpatterns.facade.Computer" target="com.designpatterns.facade.CPU">
-              <point x="42.25" y="-85.0" />
-              <point x="305.25" y="106.0" />
-              <point x="404.5" y="106.0" />
-              <point x="-40.5" y="38.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-198.0" y="86.0" />
-          <SelectedNodes>
-            <node>com.designpatterns.facade.Memory</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/AbstactPeopleDecorateImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/AbstractObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/AbstractDecorate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/FeatherDecorate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/MasterDecorate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/decorator/ClotheDecorate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,12 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" selection-start-line="7" selection-end-line="8" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1281,13 +1120,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/adapter/classAdapter/Classadapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/adapter/classAdapter/Classadapter.java" />
     <entry file="uml://JAVA/com.designpatterns.adapter.classAdapter">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1317,7 +1150,7 @@
               <point x="-21.5" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-183.0" y="78.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-183.0" y="79.0" />
           <SelectedNodes>
             <node>com.designpatterns.adapter.classAdapter.TargetImpl</node>
           </SelectedNodes>
@@ -1331,10 +1164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1356,10 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,10 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1409,28 +1230,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/CircleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/CircleFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/flyweight/Circle.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/adapter/classAdapter/Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1438,14 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1457,41 +1254,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/composite/CatalogComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/composite/FileNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/composite/Filer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/composite/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/composite/CatalogComponent.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/composite/FileNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/composite/Filer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/composite/Client.java" />
     <entry file="uml://JAVA/com.designpatterns.composite">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1535,12 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1548,10 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#972#973#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1559,9 +1315,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1593,16 +1346,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/ABCBank.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="30" />
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1622,7 +1372,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/BridgeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="625">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
@@ -1637,11 +1387,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/DepositAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1655,7 +1401,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="55.5" y="15.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="15.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1673,7 +1419,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="38.5" y="15.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="39.0" y="15.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1683,12 +1429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/designpatterns/bridge/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1708,12 +1450,6 @@
           </nodes>
           <notes />
           <edges>
-            <edge source="com.designpatterns.bridge.ICBCBank" target="com.designpatterns.bridge.Bank">
-              <point x="0.0" y="-38.5" />
-              <point x="323.0" y="126.0" />
-              <point x="262.5" y="126.0" />
-              <point x="50.5" y="50.5" />
-            </edge>
             <edge source="com.designpatterns.bridge.DepositAccount" target="com.designpatterns.bridge.Account">
               <point x="0.0" y="-38.0" />
               <point x="104.5" y="374.0" />
@@ -1725,6 +1461,12 @@
               <point x="101.0" y="126.0" />
               <point x="161.5" y="126.0" />
               <point x="-50.5" y="50.5" />
+            </edge>
+            <edge source="com.designpatterns.bridge.ICBCBank" target="com.designpatterns.bridge.Bank">
+              <point x="0.0" y="-38.5" />
+              <point x="323.0" y="126.0" />
+              <point x="262.5" y="126.0" />
+              <point x="50.5" y="50.5" />
             </edge>
             <edge source="com.designpatterns.bridge.SavingAccount" target="com.designpatterns.bridge.Account">
               <point x="0.0" y="-38.0" />
@@ -1748,17 +1490,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/InorderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/primary/tree/LevelOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="550">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/BuildTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="235">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/ZigZagLevelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/leetcodeutils/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/TreeLinkNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/InorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" column="62" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/Connect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/middle/tree/KthSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
