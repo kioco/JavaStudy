@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Random;
 
 /**
- * 享元模式
+ * 享元模式(会建立一个缓存池)
  * @author BaoZhou
  * @date 2018/12/29
  */

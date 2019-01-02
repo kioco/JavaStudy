@@ -6,7 +6,7 @@ package com.juc;
  * @date 2018/7/27
  */
 public class ProducerAndConsumerExample {
-//    public static void main(String[] args) {
+//    public staticproxy void main(String[] args) {
 //        Clerk clerk = new Clerk();
 //        Productor productor = new Productor(clerk);
 //        Consumer consumer = new Consumer(clerk);

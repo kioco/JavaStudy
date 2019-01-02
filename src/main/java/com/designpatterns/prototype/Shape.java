@@ -4,7 +4,6 @@ import java.util.Date;
 
 /**
  * 原型模式
- *
  * @author BaoZhou
  * @date 2018/12/28
  */

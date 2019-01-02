@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 隐式锁
  * 1.同步代码块
  * 2.同步方法
- * JDK 1.5后
+ * jdk 1.5后
  * <p>
  * 显示锁
  * 3.同步锁

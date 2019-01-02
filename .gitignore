@@ -28,5 +28,7 @@ hs_err_pid*
 
 src/main/resources/
 src/test/
-.idea/libraries/
 
+.idea/
+singletonFile
+target/generated-sources/
