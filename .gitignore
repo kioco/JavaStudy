@@ -32,3 +32,4 @@ src/test/
 .idea/
 singletonFile
 target/generated-sources/
+/.idea/workspace.xml
