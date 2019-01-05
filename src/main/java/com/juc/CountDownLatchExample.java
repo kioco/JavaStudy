@@ -42,6 +42,7 @@ class LatchDemo implements Runnable {
     }
 
 
+    @Override
     public void run() {
         synchronized (this) {
             try {

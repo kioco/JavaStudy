@@ -1,9 +1,8 @@
-package com.juc;
+package com.juc.atomic;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 import java.util.concurrent.*;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 1.原子类
@@ -27,14 +26,14 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author BaoZhou
  * @date 2018/7/25
  */
-public class AtomicExample {
+public class AtomicTest {
     public static void main(String[] args) {
-        AtomicDemo atomicDemo = new AtomicDemo();
+        AtomicIntegerThread atomicDemo = new AtomicIntegerThread();
         //开启线程池（需要引入guava）
         ThreadFactory namedThreadFactory = new ThreadFactoryBuilder().setNameFormat("demo-pool-%d").build();
         ExecutorService pool = new ThreadPoolExecutor(5, 200,
                 0L, TimeUnit.MILLISECONDS,
-                new LinkedBlockingQueue<Runnable>(1024), namedThreadFactory, new ThreadPoolExecutor.AbortPolicy());
+                new LinkedBlockingQueue<>(1024), namedThreadFactory, new ThreadPoolExecutor.AbortPolicy());
         for (int i = 0; i < 5; i++) {
             pool.execute(atomicDemo);
         }
@@ -42,27 +41,7 @@ public class AtomicExample {
     }
 }
 
-class AtomicDemo implements Runnable {
-    AtomicInteger serialNumber = new AtomicInteger(0);
-    public void run() {
-        try {
-            Thread.sleep(200);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println(Thread.currentThread().getName() + ":" + getSerialNumber());
 
-    }
-
-    public int getSerialNumber() {
-        return serialNumber.getAndIncrement();
-    }
-
-    public void setSerialNumber(AtomicInteger serialNumber) {
-        this.serialNumber = serialNumber;
-    }
-
-}
 
 
 
