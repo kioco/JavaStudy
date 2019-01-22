@@ -32,3 +32,6 @@ src/test/
 .idea/
 target/generated-sources/
 /.idea/workspace.xml
+/JavaStudy.iml
+singletonFile
+src/main/java/com/concurrent/blockingqueue/
