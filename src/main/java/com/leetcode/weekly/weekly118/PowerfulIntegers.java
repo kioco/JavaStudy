@@ -1,4 +1,4 @@
-package com.leetcode.weekly118;
+package com.leetcode.weekly.weekly118;
 
 import org.junit.jupiter.api.Test;
 
