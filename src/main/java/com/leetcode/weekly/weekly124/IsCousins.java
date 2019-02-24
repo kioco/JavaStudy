@@ -1,4 +1,4 @@
-package com.leetcode.weekly.weekly127;
+package com.leetcode.weekly.weekly124;
 
 import com.leetcode.leetcodeutils.TreeNode;
 import com.leetcode.leetcodeutils.TreeWrapper;
