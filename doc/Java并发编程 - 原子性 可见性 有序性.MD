@@ -7,7 +7,7 @@
 - AtomicBoolean
 - AtomicInteger
 - AtomicLong 
-- AtomicReference
+- AtomicReference 
 
 ## 原子类型数组
 提供对数组元素的原子性操作。
